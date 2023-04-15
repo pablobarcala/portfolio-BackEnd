@@ -50,7 +50,9 @@ public class MainSecurity {
                 .requestMatchers("/api/auth/**", 
                 "/api/educacion/**",
                 "/api/persona/**",
-                "/api/experiencia/**").permitAll().anyRequest().authenticated();
+                "/api/experiencia/**",
+                "/api/proyecto/**",
+                "/api/tecnologia/**").permitAll().anyRequest().authenticated();
         http.exceptionHandling().authenticationEntryPoint(jwtEntryPoint);
         http.addFilterBefore(jwtTokenFilter, UsernamePasswordAuthenticationFilter.class);
         return http.build();
