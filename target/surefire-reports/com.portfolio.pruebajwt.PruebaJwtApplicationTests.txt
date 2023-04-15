@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.portfolio.pruebajwt.PruebaJwtApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.905 s - in com.portfolio.pruebajwt.PruebaJwtApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.517 s - in com.portfolio.pruebajwt.PruebaJwtApplicationTests
