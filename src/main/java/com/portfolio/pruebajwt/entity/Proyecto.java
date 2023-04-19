@@ -18,6 +18,7 @@ public class Proyecto {
     private String imagen;
     private Date fecha;
     private String descripcion;
+    private String link;
     @ManyToOne
     @JoinColumn(name = "persona_id")
     @JsonIgnore
@@ -26,12 +27,21 @@ public class Proyecto {
     public Proyecto() {
     }
 
-    public Proyecto(String nombreProyecto, String imagen, Date fecha, String descripcion, Persona persona) {
+    public Proyecto(String nombreProyecto, String imagen, Date fecha, String descripcion, Persona persona, String link) {
         this.nombreProyecto = nombreProyecto;
         this.imagen = imagen;
         this.fecha = fecha;
         this.descripcion = descripcion;
         this.persona = persona;
+        this.link = link;
+    }
+
+    public String getLink() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
     }
 
     public String getNombreProyecto() {

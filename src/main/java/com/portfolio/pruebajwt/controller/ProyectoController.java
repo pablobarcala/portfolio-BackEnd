@@ -56,6 +56,7 @@ public class ProyectoController {
         proyecto.setFecha(nuevoProyecto.getFecha());
         proyecto.setDescripcion(nuevoProyecto.getDescripcion());
         proyecto.setImagen(nuevoProyecto.getImagen());
+        proyecto.setLink(nuevoProyecto.getLink());
         proyecto.setPersona(persona);
         
         proyectoService.saveProyecto(proyecto, idPersona);
