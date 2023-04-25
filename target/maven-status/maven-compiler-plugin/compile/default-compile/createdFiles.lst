@@ -25,7 +25,6 @@ com\portfolio\pruebajwt\controller\TecnologiaController.class
 com\portfolio\pruebajwt\security\dto\LoginUsuario.class
 com\portfolio\pruebajwt\entity\ExperienciaLaboral.class
 com\portfolio\pruebajwt\PruebaJwtApplication.class
-com\portfolio\pruebajwt\service\SendGrid.class
 com\portfolio\pruebajwt\service\ExperienciaLaboralService.class
 com\portfolio\pruebajwt\entity\Proyecto.class
 com\portfolio\pruebajwt\security\service\RolService.class
@@ -33,7 +32,6 @@ com\portfolio\pruebajwt\entity\Persona.class
 com\portfolio\pruebajwt\repository\PersonaRepository.class
 com\portfolio\pruebajwt\security\config\BeansConfig.class
 com\portfolio\pruebajwt\security\dto\NuevoUsuario.class
-com\portfolio\pruebajwt\controller\ContactoController.class
 com\portfolio\pruebajwt\repository\EducacionRepository.class
 com\portfolio\pruebajwt\security\entity\Rol.class
 com\portfolio\pruebajwt\security\repository\RolRepository.class

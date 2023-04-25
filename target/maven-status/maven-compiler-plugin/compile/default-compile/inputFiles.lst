@@ -30,14 +30,12 @@ E:\CURSOS\Cursos\YoProgramo\PROYECTO\portfolio-BackEnd\prueba-jwt\src\main\java\
 E:\CURSOS\Cursos\YoProgramo\PROYECTO\portfolio-BackEnd\prueba-jwt\src\main\java\com\portfolio\pruebajwt\entity\ExperienciaLaboral.java
 E:\CURSOS\Cursos\YoProgramo\PROYECTO\portfolio-BackEnd\prueba-jwt\src\main\java\com\portfolio\pruebajwt\PruebaJwtApplication.java
 E:\CURSOS\Cursos\YoProgramo\PROYECTO\portfolio-BackEnd\prueba-jwt\src\main\java\com\portfolio\pruebajwt\repository\ExperienciaLaboralRepository.java
-E:\CURSOS\Cursos\YoProgramo\PROYECTO\portfolio-BackEnd\prueba-jwt\src\main\java\com\portfolio\pruebajwt\service\SendGrid.java
 E:\CURSOS\Cursos\YoProgramo\PROYECTO\portfolio-BackEnd\prueba-jwt\src\main\java\com\portfolio\pruebajwt\exceptions\CustomException.java
 E:\CURSOS\Cursos\YoProgramo\PROYECTO\portfolio-BackEnd\prueba-jwt\src\main\java\com\portfolio\pruebajwt\security\jwt\JwtEntryPoint.java
 E:\CURSOS\Cursos\YoProgramo\PROYECTO\portfolio-BackEnd\prueba-jwt\src\main\java\com\portfolio\pruebajwt\security\repository\UsuarioRepository.java
 E:\CURSOS\Cursos\YoProgramo\PROYECTO\portfolio-BackEnd\prueba-jwt\src\main\java\com\portfolio\pruebajwt\security\dto\NuevoUsuario.java
 E:\CURSOS\Cursos\YoProgramo\PROYECTO\portfolio-BackEnd\prueba-jwt\src\main\java\com\portfolio\pruebajwt\service\EducacionService.java
 E:\CURSOS\Cursos\YoProgramo\PROYECTO\portfolio-BackEnd\prueba-jwt\src\main\java\com\portfolio\pruebajwt\controller\EducacionController.java
-E:\CURSOS\Cursos\YoProgramo\PROYECTO\portfolio-BackEnd\prueba-jwt\src\main\java\com\portfolio\pruebajwt\controller\ContactoController.java
 E:\CURSOS\Cursos\YoProgramo\PROYECTO\portfolio-BackEnd\prueba-jwt\src\main\java\com\portfolio\pruebajwt\security\enums\RolNombre.java
 E:\CURSOS\Cursos\YoProgramo\PROYECTO\portfolio-BackEnd\prueba-jwt\src\main\java\com\portfolio\pruebajwt\service\ProyectoService.java
 E:\CURSOS\Cursos\YoProgramo\PROYECTO\portfolio-BackEnd\prueba-jwt\src\main\java\com\portfolio\pruebajwt\security\repository\RolRepository.java
