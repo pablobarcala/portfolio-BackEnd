@@ -12,6 +12,8 @@ com\portfolio\pruebajwt\security\service\UsuarioService.class
 com\portfolio\pruebajwt\entity\FormContacto.class
 com\portfolio\pruebajwt\controller\PersonaController.class
 com\portfolio\pruebajwt\security\enums\RolNombre.class
+com\portfolio\pruebajwt\service\StorageService.class
+com\portfolio\pruebajwt\util\FileUploadUtil.class
 com\portfolio\pruebajwt\security\jwt\JwtEntryPoint.class
 com\portfolio\pruebajwt\service\EducacionService.class
 com\portfolio\pruebajwt\repository\TecnologiaRepository.class
