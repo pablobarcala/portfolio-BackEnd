@@ -7,11 +7,13 @@ import com.portfolio.pruebajwt.service.StorageService;
 import com.portfolio.pruebajwt.util.FileUploadUtil;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
+import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
+import org.springframework.core.io.UrlResource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -46,11 +48,20 @@ public class PersonaController {
     @GetMapping("/{id}/imagen")
     public ResponseEntity<Resource> obtenerImagenPersona(@PathVariable int id) throws MalformedURLException {
         String nombreImagen = personaService.obtenerNombreImagen(id);
-        Resource resource = storageService.cargarArchivo(nombreImagen);
-        return ResponseEntity.ok()
-                .header(HttpHeaders.CONTENT_DISPOSITION, 
-                "attachment: filename=\"" + resource.getFilename() + "\"")
-                .body(resource);
+        File file = new File("src/main/resources/static/images/profile/" + nombreImagen);
+        if(file.exists()) {
+            Resource resource = new UrlResource(file.toURI().toURL());
+            return ResponseEntity.ok()
+                    .header(HttpHeaders.CONTENT_DISPOSITION, "attachment: filename=\"" + resource.getFilename() + "\"")
+                    .body(resource);
+        } else {
+            return ResponseEntity.notFound().build();
+        }
+        // Resource resource = storageService.cargarArchivo(nombreImagen);
+        // return ResponseEntity.ok()
+        //         .header(HttpHeaders.CONTENT_DISPOSITION, 
+        //         "attachment: filename=\"" + resource.getFilename() + "\"")
+        //         .body(resource);
     }
     
     @PreAuthorize("hasRole('ADMIN')")
