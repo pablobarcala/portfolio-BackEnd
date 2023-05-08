@@ -5,6 +5,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Lob;
 import jakarta.persistence.OneToMany;
 import jakarta.validation.constraints.NotNull;
 import java.util.List;
@@ -21,6 +22,7 @@ public class Persona {
     private String titulo;
     private String imagen;
     @NotNull
+    @Lob
     private String descripcion;
     
     // Lista de educaciones de la persona
